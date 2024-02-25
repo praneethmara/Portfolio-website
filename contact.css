@@ -1,0 +1,30 @@
+.resume{
+    border:2px solid rgb(161, 27, 27);
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(0, 67, 250);
+    padding: 10px;
+    border-radius: 50px;
+    transition: all 0.6s ease-in-out;
+    
+}
+.resume:hover{
+    transform: translateY(-5px);
+    background: transparent;
+    color:rgb(23, 16, 229);
+}
+footer{
+    width:100%;
+    position: relative;
+    background-color:rgb(71, 117, 202);
+    height: 65px;
+    margin-top: 53px;
+
+}
+footer p{
+    padding-top: 10px;
+    color: white;
+}
+@media(max-width:850px){
+
+}

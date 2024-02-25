@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header,
+  main,
+  footer {
+    padding: 20px;
+  }
+  nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+  }
+  .profile-image {
+    width: 300px;
+    border-radius: 50%;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  #about,
+  #skills,
+  #contact {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  .skills-list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  } 
+  .skills-list li {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  } 
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  } 
+  .social-icons a {
+    margin-right: 10px; 
+  }
+  @media (max-width: 768px) {
+    .nav-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    .nav-grid ul li {
+      display: block;
+    }
+  }
+  .skills-list{
+    font-size:80px
+  }
+  .icon-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .icon-container i {
+    margin-bottom: 5px;
+  }
+  .icon-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: gray;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+  }
+  .name-container {
+    flex: 3;
+  }
+  .name {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-list li {
+    margin-bottom: 5px;
+  }
